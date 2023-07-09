@@ -55,7 +55,7 @@ task:
       - ccache -M 50G
       - . build/envsetup.sh
       - lunch "$LUNCH_COMBO"
-      - mka $TARGET
+      - make $TARGET
      
   Upload_script:
       - echo "============================"
